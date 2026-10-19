@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "execution": "Oracle Linux ARM64",
+  "validation": "six Java cases plus dictionary demonstration",
+  "files": {
+    "OneWayHash.java": "904ba4931478e1172c147348cae1289563fae935dd8b2bc750afb312b52af585",
+    "verify_java_oracle.py": "0e9c66de5bce56b26c765bc0e8f3161b0efcb5432dc66b04186abf044d2d59f5",
+    "validation.json": "d48e3a1c3444bdf2c8bf5bf1ed4afe3234c243a8defe39f384889c87a3cdfa3e",
+    "LLM7-response.txt": "859e5f688161ad6c1e0aaf45e23c2136f94b52595b283463820804c2727bee9c",
+    "LLM7-receipt.json": "d53ad4d56fb86fce7160520c1e8a48745c1d68298d95237462c1704690ab4052",
+    "TeachAnything-receipt.json": "fa645c6332f5c4410fb23984953a7ce8adbd3c7046fbe50fa9652b4e1345fc28"
+  }
+}

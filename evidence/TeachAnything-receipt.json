@@ -1,0 +1,16 @@
+{
+  "adapter": "g4f",
+  "provider": "TeachAnything",
+  "requested_model": "gemma",
+  "model_identity_verified": false,
+  "execution_host": "Oracle Linux ARM64",
+  "dispatch": "Oracle private queue via local Unix socket",
+  "private_data_sent": false,
+  "api_key_supplied": false,
+  "browser_cookies_used": false,
+  "prompt_sha256": "1b5d5e79baf72852f349781eef82842a744b9b8aa6bd17c48d1193933b5f13f8",
+  "status": "failed",
+  "error_type": "HTTPError",
+  "http_status": 403,
+  "elapsed_seconds": 0.46
+}

@@ -1,0 +1,17 @@
+{
+  "adapter": "g4f",
+  "provider": "LLM7",
+  "requested_model": "default",
+  "model_identity_verified": false,
+  "execution_host": "Oracle Linux ARM64",
+  "dispatch": "Oracle private queue via local Unix socket",
+  "private_data_sent": false,
+  "api_key_supplied": false,
+  "browser_cookies_used": false,
+  "prompt_sha256": "1b5d5e79baf72852f349781eef82842a744b9b8aa6bd17c48d1193933b5f13f8",
+  "status": "response_received",
+  "response_sha256": "859e5f688161ad6c1e0aaf45e23c2136f94b52595b283463820804c2727bee9c",
+  "characters": 1035,
+  "queue_status": "completed",
+  "elapsed_seconds": 3.2
+}

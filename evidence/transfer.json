@@ -1,0 +1,6 @@
+{
+  "transport": "SCP over SSH with known host verification",
+  "archive_bytes": 4365,
+  "archive_sha256": "aede997917d480ab20afaa260b2fa78f977fac9f8677b473a9015e173b2468a6",
+  "all_manifest_hashes_verified_after_download": true
+}

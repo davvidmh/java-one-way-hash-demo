@@ -1,0 +1,54 @@
+{
+  "execution": "Oracle Linux ARM64",
+  "java_target": 17,
+  "tests": [
+    {
+      "input": "hola",
+      "default_invocation": true,
+      "expected": "b221d9dbb083a7f33428d7c2a3c3198ae925614d70210e28716ccaa7cd4ddb79",
+      "actual": "b221d9dbb083a7f33428d7c2a3c3198ae925614d70210e28716ccaa7cd4ddb79",
+      "passed": true
+    },
+    {
+      "input": "hola",
+      "default_invocation": false,
+      "expected": "b221d9dbb083a7f33428d7c2a3c3198ae925614d70210e28716ccaa7cd4ddb79",
+      "actual": "b221d9dbb083a7f33428d7c2a3c3198ae925614d70210e28716ccaa7cd4ddb79",
+      "passed": true
+    },
+    {
+      "input": "",
+      "default_invocation": false,
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "passed": true
+    },
+    {
+      "input": "Hola",
+      "default_invocation": false,
+      "expected": "e633f4fc79badea1dc5db970cf397c8248bac47cc3acf9915ba60b5d76b0e88f",
+      "actual": "e633f4fc79badea1dc5db970cf397c8248bac47cc3acf9915ba60b5d76b0e88f",
+      "passed": true
+    },
+    {
+      "input": "hola mundo",
+      "default_invocation": false,
+      "expected": "0b894166d3336435c800bea36ff21b29eaa801a52f584c006c49289a0dcf6e2f",
+      "actual": "0b894166d3336435c800bea36ff21b29eaa801a52f584c006c49289a0dcf6e2f",
+      "passed": true
+    },
+    {
+      "input": "áéíóú 🔐",
+      "default_invocation": false,
+      "expected": "0effb2923f3adf42a40597b0fad0b4a14de4e1395faf9df8272355edb48711b0",
+      "actual": "0effb2923f3adf42a40597b0fad0b4a14de4e1395faf9df8272355edb48711b0",
+      "passed": true
+    }
+  ],
+  "dictionary_demonstration": {
+    "candidate_count": 4,
+    "matched": "hola"
+  },
+  "source_sha256": "904ba4931478e1172c147348cae1289563fae935dd8b2bc750afb312b52af585",
+  "passed": true
+}
